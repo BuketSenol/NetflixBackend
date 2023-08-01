@@ -290,4 +290,5 @@ def logoutUser(request):
     logout(request)
     return redirect("indexPage")
 
-
+def hello(request):
+    print("hello")
